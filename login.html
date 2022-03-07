@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+      <title>The Official Online Home of 2nd Fairview Scouts</title>
+      <link rel="stylesheet" href="stylesheet.css">
+      <meta charset="UTF-8">
+      <meta name="HomePage" content="Everything you need to know about 2nd Fairview Scouts">
+    </head>
+    <body>
+        <div class="main">
+    <div class="bannertop">
+        <a href="scoutsindex.html"><img src="Images/Banner.png" height="100%" width="100%"></a>
+    </div>
+        <script>
+            function onSubmit() {
+                if (document.getElementById('password').value == 'scoutsisbest') {window.location.href = 'calendar.html';} else {alert('Please check your password and try again.');}
+            }
+        </script>
+        <div class="loginpage">
+            <p>Enter password to login. Please click on the enter button, DO NOT CLICK ENTER ON YOUR KEYBOARD.</p>
+            <fieldset>
+                <form class="scout-form" action="#">
+                    <div class="box">
+                        <label>Enter Password</label>
+                        <input type="password" name="password" maxlength="15" class="span7" id="password" placeholder="enter password" required />
+                    </div>
+                </form>
+            </fieldset>
+            <button class="btn" id="btn" onclick="onSubmit()">Enter</button>
+            <br>
+            <a class="blue-link" href="scoutsindex.html">Return to HOMEPAGE.</a>
+        </div>
+            <a class="beavers" href="beavers.html">Beavers</a>
+            <a class="cubs" href="cubs.html">Cubs</a>
+            <a class="scouts" href="scouts.html">Scouts</a>
+            <a class="volunteering" href="volunteering.html">Volunteering</a>
+            <a class="how-to-join" href="how-to-join.html">How to Join</a>
+            <a class="fundraising" href="fundraising.html">Fundraising</a>
+            <a class="cabin" href="cabin.html">Cabin</a>
+            <a class="camping-opportunites" href="camping-opportunities.html">Camping Opportunities</a>
+            <a class="high-school-credit" href="high-school-credit.html">High School Credit</a>
+            <a class="login" href="login.html">Calendar</a>
+        </div>
+    </body>
